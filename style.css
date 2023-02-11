@@ -1,0 +1,131 @@
+a:link, a:visited {
+  <!-- Used the following code from W3Schools to create an interactive button with cool properties! -->
+  display: flex;
+  background-color: purple;
+  border-radius: 25px;
+  color: white;
+  padding: 14px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+html {
+<!-- Used the following code from Stack Overflow to create a background gradient fill colour -->
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #70bg32;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, blue, red);
+    background: -moz-linear-gradient( to left top, blue, red);
+    background: -ms-linear-gradient( to left top, blue, red);
+    background: -o-linear-gradient( to left top, blue, red);
+    background: linear-gradient( to left top, blue, red);
+}
+
+a:hover, a:active {
+  background-color: grey;
+  border: solid 2px white;
+  color: purple;
+}
+
+.header{
+  
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.Introtext{
+  flex-wrap: wrap;
+  font-family: "Lucida Console", "Courier New", monospace;
+  display: flex;
+  align-items: flex-start;
+  flex-direction:column;
+  padding-left: 90px;
+}
+  #name{
+  flex-wrap: wrap;
+  align-items:left;
+  padding-left: 35px;
+  }
+
+.image {
+  border-radius: 50%;
+  flex-wrap: wrap;
+  margin: 35px;
+  border: solid purple;
+  height: 200px;
+  width: 200px;
+}
+
+#occupation {
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-left: 45px;
+}
+
+h1 {
+  flex-wrap: wrap;
+  align-items: left;
+  text-style: italics;
+  color: black;
+}
+
+.header {
+  display: flex;
+}
+
+.maintext {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  flex-direction:column;
+  padding-top: 150px;
+}
+
+.About{
+  flex-wrap: wrap;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  flex-direction:column;
+}
+
+.Checklist{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction:row;
+}
+
+.Bars{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction:column;
+}
+
+.maintext div {
+  width: 610px;
+  height: 330px;
+}
+
+.alltext{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.interests{
+  display: flex;
+  flex-wrap: wrap;
+}
